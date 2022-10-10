@@ -25,14 +25,26 @@
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
+        <h2>Week 1</h2>
         
         <h3>Hiring propensity</h3>
         <p>The first chart indicates job creation per employee, in respect with age and size</p>
         <div class="chart" id="Chart1"></div>
 
         <h3>Productivity per firm per employee</h3>
-        <p>My second chart looks at estimated income received per employee</p>
+        <p>The second chart looks at estimated income received per employee</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h2>Week 2</h2>
+
+        <h3>IMF Lending Outstanding</h3>
+        <p>The third graph shows the IMF Lending in absolute terms</p>
+        <div class="chart" id="Chart3"></div>
+
+        <h3>IMF Lending Outstanding as a % of World GDP</h3>
+        <p>The fourth graph indicates the IMF lending relative to World GDP</p>
+        <div class="chart" id="Chart4"></div>
+        <p>IMF Lending relative to the World GDP seems to be at its highest in 1984. This means that the year 1984 was the riskiest one.</p>
     </div> 
 </body>
 
@@ -41,10 +53,14 @@
     //Define charts:
     var myChart1 = "chart1_HiringPropensity.json";
     var myChart2 = "chart2_ProductivityPerFirmPerEmployee.json";
+    var mychart3 = "chart3_IMFCreditOutstanding.json";
+    var mychart4 = "chart4_IMF&WorldGDP"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', mychart3);
+    vegaEmbed('#Chart4', mychart4);
 </script>
 
 </html>
