@@ -26,7 +26,7 @@
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         <h2>Week 1</h2>
-        
+
         <h3>Hiring propensity</h3>
         <p>The first chart indicates job creation per employee, in respect with age and size</p>
         <div class="chart" id="Chart1"></div>
@@ -45,6 +45,18 @@
         <p>The fourth graph indicates the IMF lending relative to World GDP</p>
         <div class="chart" id="Chart4"></div>
         <p>IMF Lending relative to the World GDP seems to be at its highest in 1984. This means that the year 1984 was the riskiest one.</p>
+
+        <h2>Week 3</h2>
+        <h3>Productivity in the UK</h3>
+        <p>The fifth graph illustrates the GDP per capita in the UK</p>
+        <div class="chart" id="Chart5"></div>
+
+        <h2>Week 4</h2>
+        <h3>Population Growth in the UK</h3>
+        <p>The sixth graph illustrates the percentage change in UK's population (1961-2021)</p>
+        <div class="chart" id="Chart6"></div>
+        <p>Data source: World Bank</p>
+        <p>I chose this source since it is a reliable one, updated with all the latest information</p>
     </div> 
 </body>
 
@@ -54,13 +66,17 @@
     var myChart1 = "chart1_HiringPropensity.json";
     var myChart2 = "chart2_ProductivityPerFirmPerEmployee.json";
     var mychart3 = "chart3_IMFCreditOutstanding.json";
-    var mychart4 = "chart4_IMF&WorldGDP"
+    var mychart4 = "chart4_IMF&WorldGDP";
+    var mychart5 = "chart5_GDPperCapita.json";
+    var mychart6 = "chart6_PopulationGrowth.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', mychart3);
     vegaEmbed('#Chart4', mychart4);
+    vegaEmbed('#Chart5', mychart5);
+    vegaEmbed('#Chart6', mychart6);
 </script>
 
 </html>

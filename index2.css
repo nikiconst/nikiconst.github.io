@@ -17,7 +17,7 @@ body{
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
+h1, h2, h3, p{
     color:rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -35,11 +35,24 @@ h1, h3, p{
     border-color: rgb(100,100,100);
 }
 
+.myWeek2{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+
+      
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+
 
 /* Set the apperance of the class, chart */
 .chart{
     background-color: white;
-    width:450px;
+    width:510px;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
