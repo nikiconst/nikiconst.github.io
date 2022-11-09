@@ -28,20 +28,50 @@ h1, h2, h3, p{
     max-width: 600px;
     background-color: rgb(220, 220, 220);
 
-      
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(100,100,100);
 }
-
 .myWeek2{
     margin: auto;
     margin: auto;
     max-width: 600px;
     background-color: rgb(220, 220, 220);
 
-      
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek3{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek4{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek5{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
@@ -50,14 +80,14 @@ h1, h2, h3, p{
 
 
 /* Set the apperance of the class, chart */
-.chart{
+/*.chart{
     background-color: white;
     width:510px;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    border-color: grey;
-    
+    border-color: grey;  
 }
-    
+
+
 
