@@ -1,0 +1,332 @@
+Area name,Has previously served in any UK armed forces (percent)
+Hartlepool,5.1
+Middlesbrough,4.1
+Redcar and Cleveland,6.2
+Stockton-on-Tees,5.2
+Darlington,6.1
+Halton,4.8
+Warrington,4.0
+Blackburn with Darwen,2.9
+Blackpool,5.1
+"Kingston upon Hull, City of",4.7
+East Riding of Yorkshire,6.2
+North East Lincolnshire,5.5
+North Lincolnshire,5.5
+York,4.3
+Derby,3.3
+Leicester,1.6
+Rutland,6.9
+Nottingham,2.6
+"Herefordshire, County of",6.1
+Telford and Wrekin,5.4
+Stoke-on-Trent,3.6
+Bath and North East Somerset,3.6
+"Bristol, City of",2.4
+North Somerset,5.3
+South Gloucestershire,4.0
+Plymouth,8.4
+Torbay,5.9
+Swindon,5.1
+Peterborough,4.0
+Luton,1.8
+Southend-on-Sea,3.3
+Thurrock,2.4
+Medway,3.8
+Bracknell Forest,3.9
+West Berkshire,4.3
+Reading,2.6
+Slough,1.3
+Windsor and Maidenhead,3.4
+Wokingham,3.3
+Milton Keynes,2.9
+Brighton and Hove,2.4
+Portsmouth,5.4
+Southampton,3.1
+Isle of Wight,6.0
+County Durham,5.2
+Cheshire East,3.9
+Cheshire West and Chester,4.5
+Shropshire,5.5
+Cornwall,6.3
+Isles of Scilly,6.0
+Wiltshire,7.5
+Bedford,3.2
+Central Bedfordshire,3.6
+Northumberland,5.8
+"Bournemouth, Christchurch and Poole",4.7
+Dorset,7.1
+Buckinghamshire,3.4
+North Northamptonshire,4.3
+West Northamptonshire,3.7
+Cambridge,1.8
+East Cambridgeshire,4.2
+Fenland,5.2
+Huntingdonshire,5.5
+South Cambridgeshire,3.6
+Allerdale,4.9
+Barrow-in-Furness,4.8
+Carlisle,5.4
+Copeland,5.5
+Eden,4.6
+South Lakeland,4.5
+Amber Valley,3.8
+Bolsover,4.2
+Chesterfield,4.2
+Derbyshire Dales,4.0
+Erewash,4.4
+High Peak,4.0
+North East Derbyshire,4.1
+South Derbyshire,4.1
+East Devon,6.7
+Exeter,3.9
+Mid Devon,5.2
+North Devon,5.9
+South Hams,6.7
+Teignbridge,6.1
+Torridge,5.6
+West Devon,7.3
+Eastbourne,4.7
+Hastings,3.9
+Lewes,4.6
+Rother,5.3
+Wealden,4.7
+Basildon,2.8
+Braintree,3.7
+Brentwood,2.9
+Castle Point,3.5
+Chelmsford,3.1
+Colchester,4.6
+Epping Forest,2.4
+Harlow,2.6
+Maldon,3.8
+Rochford,3.6
+Tendring,5.1
+Uttlesford,3.6
+Cheltenham,4.5
+Cotswold,5.7
+Forest of Dean,5.4
+Gloucester,4.8
+Stroud,4.8
+Tewkesbury,6.2
+Basingstoke and Deane,4.6
+East Hampshire,5.8
+Eastleigh,4.8
+Fareham,9.3
+Gosport,12.5
+Hart,5.0
+Havant,7.2
+New Forest,5.9
+Rushmoor,6.7
+Test Valley,6.1
+Winchester,5.3
+Broxbourne,2.2
+Dacorum,3.2
+Hertsmere,2.2
+North Hertfordshire,3.2
+Three Rivers,2.7
+Watford,1.9
+Ashford,4.6
+Canterbury,3.9
+Dartford,2.6
+Dover,5.9
+Gravesham,2.8
+Maidstone,4.0
+Sevenoaks,3.5
+Folkestone and Hythe,5.7
+Swale,3.9
+Thanet,5.0
+Tonbridge and Malling,3.8
+Tunbridge Wells,3.5
+Burnley,4.0
+Chorley,4.3
+Fylde,6.1
+Hyndburn,3.9
+Lancaster,4.6
+Pendle,3.4
+Preston,3.3
+Ribble Valley,4.0
+Rossendale,4.0
+South Ribble,4.6
+West Lancashire,4.2
+Wyre,5.7
+Blaby,3.8
+Charnwood,3.4
+Harborough,3.9
+Hinckley and Bosworth,4.2
+Melton,5.6
+North West Leicestershire,4.0
+Oadby and Wigston,3.5
+Boston,4.8
+East Lindsey,7.0
+Lincoln,5.3
+North Kesteven,10.2
+South Holland,5.6
+South Kesteven,7.4
+West Lindsey,7.3
+Breckland,6.4
+Broadland,5.6
+Great Yarmouth,4.8
+King's Lynn and West Norfolk,5.6
+North Norfolk,6.4
+Norwich,3.1
+South Norfolk,4.8
+Craven,4.3
+Hambleton,6.5
+Harrogate,5.2
+Richmondshire,9.5
+Ryedale,5.2
+Scarborough,6.0
+Selby,4.9
+Ashfield,4.2
+Bassetlaw,5.1
+Broxtowe,4.1
+Gedling,4.0
+Mansfield,4.4
+Newark and Sherwood,5.1
+Rushcliffe,4.0
+Cherwell,4.2
+Oxford,1.8
+South Oxfordshire,4.3
+Vale of White Horse,4.6
+West Oxfordshire,5.5
+Mendip,4.7
+Sedgemoor,5.4
+South Somerset,6.9
+Cannock Chase,4.1
+East Staffordshire,3.9
+Lichfield,4.1
+Newcastle-under-Lyme,4.0
+South Staffordshire,4.1
+Stafford,5.3
+Staffordshire Moorlands,4.1
+Tamworth,3.9
+Babergh,5.0
+Ipswich,3.9
+Mid Suffolk,5.4
+Elmbridge,2.9
+Epsom and Ewell,2.6
+Guildford,3.5
+Mole Valley,3.7
+Reigate and Banstead,3.2
+Runnymede,2.8
+Spelthorne,3.0
+Surrey Heath,4.4
+Tandridge,3.5
+Waverley,4.2
+Woking,2.9
+North Warwickshire,3.9
+Nuneaton and Bedworth,4.1
+Rugby,3.9
+Stratford-on-Avon,4.3
+Warwick,3.1
+Adur,4.5
+Arun,5.3
+Chichester,5.4
+Crawley,2.9
+Horsham,4.3
+Mid Sussex,3.8
+Worthing,4.2
+Bromsgrove,3.8
+Malvern Hills,5.1
+Redditch,3.7
+Worcester,4.0
+Wychavon,4.6
+Wyre Forest,4.4
+St Albans,2.5
+Welwyn Hatfield,2.6
+East Hertfordshire,2.8
+Stevenage,3.1
+East Suffolk,5.5
+West Suffolk,4.7
+Somerset West and Taunton,6.0
+Bolton,3.2
+Bury,3.3
+Manchester,1.8
+Oldham,3.2
+Rochdale,3.3
+Salford,2.8
+Stockport,3.4
+Tameside,3.6
+Trafford,2.9
+Wigan,3.8
+Knowsley,4.1
+Liverpool,3.1
+St. Helens,4.2
+Sefton,4.7
+Wirral,5.1
+Barnsley,4.2
+Doncaster,5.1
+Rotherham,3.8
+Sheffield,2.9
+Newcastle upon Tyne,3.5
+North Tyneside,5.1
+South Tyneside,5.3
+Sunderland,4.8
+Birmingham,2.0
+Coventry,2.5
+Dudley,3.2
+Sandwell,2.2
+Solihull,3.4
+Walsall,2.9
+Wolverhampton,2.6
+Bradford,2.9
+Calderdale,3.9
+Kirklees,3.4
+Leeds,3.1
+Wakefield,4.1
+Gateshead,4.5
+City of London,1.8
+Barking and Dagenham,1.3
+Barnet,1.3
+Bexley,2.5
+Brent,0.8
+Bromley,2.5
+Camden,1.1
+Croydon,1.7
+Ealing,1.1
+Enfield,1.3
+Greenwich,2.0
+Hackney,0.8
+Hammersmith and Fulham,1.4
+Haringey,0.9
+Harrow,1.3
+Havering,2.4
+Hillingdon,2.0
+Hounslow,1.5
+Islington,0.9
+Kensington and Chelsea,1.6
+Kingston upon Thames,2.0
+Lambeth,1.1
+Lewisham,1.2
+Merton,1.7
+Newham,0.7
+Redbridge,1.2
+Richmond upon Thames,2.2
+Southwark,1.1
+Sutton,2.2
+Tower Hamlets,0.8
+Waltham Forest,1.1
+Wandsworth,1.5
+Westminster,1.2
+Isle of Anglesey,5.6
+Gwynedd,4.3
+Conwy,5.9
+Denbighshire,5.5
+Flintshire,5.3
+Wrexham,4.6
+Ceredigion,4.1
+Pembrokeshire,5.7
+Carmarthenshire,4.7
+Swansea,4.1
+Neath Port Talbot,4.4
+Bridgend,4.9
+Vale of Glamorgan,5.5
+Cardiff,2.9
+Rhondda Cynon Taf,4.1
+Caerphilly,4.4
+Blaenau Gwent,3.9
+Torfaen,4.9
+Monmouthshire,5.4
+Newport,4.0
+Powys,5.1
+Merthyr Tydfil,3.9
