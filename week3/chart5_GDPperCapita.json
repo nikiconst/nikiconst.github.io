@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {"Time": 2000, "GDP per capita": 28223.06757},
+      {"Time": 2001, "GDP per capita": 27806.44882},
+      {"Time": 2002, "GDP per capita": 30049.89632},
+      {"Time": 2003, "GDP per capita": 34487.46757},
+      {"Time": 2004, "GDP per capita": 40371.71083},
+      {"Time": 2005, "GDP per capita": 42132.09072},
+      {"Time": 2006, "GDP per capita": 44654.09692},
+      {"Time": 2007, "GDP per capita": 50653.25691},
+      {"Time": 2008, "GDP per capita": 47549.34863},
+      {"Time": 2009, "GDP per capita": 38952.21103},
+      {"Time": 2010, "GDP per capita": 39688.61497},
+      {"Time": 2011, "GDP per capita": 42284.88449},
+      {"Time": 2012, "GDP per capita": 42686.80005},
+      {"Time": 2013, "GDP per capita": 43713.81412},
+      {"Time": 2014, "GDP per capita": 47787.2413},
+      {"Time": 2015, "GDP per capita": 45404.56777},
+      {"Time": 2016, "GDP per capita": 41499.5557},
+      {"Time": 2017, "GDP per capita": 40857.75558},
+      {"Time": 2018, "GDP per capita": 43646.95197},
+      {"Time": 2019, "GDP per capita": 43070.49836},
+      {"Time": 2020, "GDP per capita": 41098.07865},
+      {"Time": 2021, "GDP per capita": 47334.35531}
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#86d0bb"},
+  "encoding": {
+    "x": {"field": "Time", "type": "nominal"},
+    "y": {"field": "GDP per capita", "type": "quantitative"}
+  }
+}
