@@ -1,40 +1,40 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "Annual Inflation rates (%)",
-      "subtitle": "UK vs World. Source: World Bank",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "middle",
-      "color": "black"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Annual Inflation rates (%)",
+    "subtitle": "UK vs World. Source: World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/week8/inflation(uk-world).csv",
+    "format": {"type": "csv"}
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {
+      "field": "Time",
+      "type": "ordinal",
+      "title": null,
+      "axis": {"grid": false}
     },
-    "data": {
-      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/inflation(uk%20%26%20world)(1).csv",
-      "format": {"type": "csv"}
+    "y": {
+      "field": "Inflation",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
     },
-    "height": 300,
-    "width": 300,
-    "mark": {"type": "line", "point": true},
-    "encoding": {
-      "x": {
-        "field": "Time",
-        "type": "ordinal",
-        "title": null,
-        "axis": {"grid": false}
-      },
-      "y": {
-        "field": "Inflation",
-        "type": "quantitative",
-        "title": null,
-        "axis": {"grid": false}
-      },
-      "color": {
-        "field": "Country",
-        "type": "nominal",
-        "scale": {"scheme": "set2"},
-        "title": null,
-        "legend": {"orient": "top-right"}
-      }
-    },
-    "config": {}
-  }
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "scale": {"scheme": "set2"},
+      "title": null,
+      "legend": {"orient": "top-right"}
+    }
+  },
+  "config": {}
+}
