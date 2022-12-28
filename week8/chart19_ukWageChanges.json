@@ -1,79 +1,79 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Percentage change in Real Wages",
-    "title": {
-      "text": "Percentage change in Real Wages",
-      "subtitle": "Unites Kingdom. Source: ONS",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "middle",
-      "color": "black"
-    },
-    "data": {
-      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/uk%20wage%20change.csv"
-    },
-    "height": 300,
-    "width": 300,
-    "mark": {
-      "type": "line",
-      "point": false,
-      "interpolate": "step",
-      "color": "green"
-    },
-    "encoding": {"x": {"field": "Year", "type": "temporal", "title": null}},
-    "layer": [
-      {
-        "encoding": {
-          "y": {"field": "Real wages", "type": "quantitative", "title": null}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Percentage change in Real Wages",
+  "title": {
+    "text": "Percentage change in Real Wages",
+    "subtitle": "Unites Kingdom. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/week8/UkWageChange.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {
+    "type": "line",
+    "point": false,
+    "interpolate": "step",
+    "color": "green"
+  },
+  "encoding": {"x": {"field": "Year", "type": "temporal", "title": null}},
+  "layer": [
+    {
+      "encoding": {
+        "y": {"field": "Real wages", "type": "quantitative", "title": null}
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "align": false,
+            "interpolate": "step",
+            "color": "green"
+          }
         },
-        "layer": [
+        {
+          "transform": [{"filter": {"selection": "hover"}}],
+          "mark": {"type": "circle", "size": 150, "color": "green"}
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
           {
-            "mark": {
-              "type": "line",
-              "align": false,
-              "interpolate": "step",
-              "color": "green"
-            }
+            "field": "Year",
+            "type": "temporal",
+            "format": "%b-%Y",
+            "title": "Date"
           },
           {
-            "transform": [{"filter": {"selection": "hover"}}],
-            "mark": {"type": "circle", "size": 150, "color": "green"}
+            "field": "Real wages",
+            "type": "quantitative",
+            "format": ",.0f",
+            "title": "Real Wage(%)"
           }
         ]
       },
-      {
-        "mark": "rule",
-        "encoding": {
-          "opacity": {
-            "condition": {"value": 0, "selection": "hover"},
-            "value": 0
-          },
-          "tooltip": [
-            {
-              "field": "Year",
-              "type": "temporal",
-              "format": "%b-%Y",
-              "title": "Date"
-            },
-            {
-              "field": "Real wages",
-              "type": "quantitative",
-              "format": ",.0f",
-              "title": "Real Wage(%)"
-            }
-          ]
-        },
-        "selection": {
-          "hover": {
-            "type": "single",
-            "fields": ["Year"],
-            "nearest": true,
-            "on": "mouseover",
-            "empty": "none",
-            "clear": "mouseout"
-          }
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["Year"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
         }
       }
-    ],
-    "config": {}
-  }
+    }
+  ],
+  "config": {}
+} 
