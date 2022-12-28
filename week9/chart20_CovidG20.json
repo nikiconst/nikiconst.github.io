@@ -1,67 +1,67 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "Covid cases vs Covid deaths in the G20 countries",
-      "subtitle": [
-        "Covid cases(millions) (x), Population(millions) (y). Dec2022 data",
-        "Size of points based on Covid deaths(thousands)",
-        ""
-      ],
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Covid cases vs Covid deaths in the G20 countries",
+    "subtitle": [
+      "Covid cases(millions) (x), Population(millions) (y). Dec2022 data",
+      "Size of points based on Covid deaths(thousands)",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/week9/covidG20.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {"type": "circle", "color": "green", "opacity": 0.7},
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "Covid_cases(millions)",
+      "type": "quantitative",
+      "scale": {"domain": [1, 99]},
+      "axis": {"grid": false},
+      "title": null
     },
-    "config": {"background": "white", "view": {"stroke": "transparent"}},
-    "data": {
-      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/covid%20G20.csv",
-      "format": {"type": "csv"}
+    "y": {
+      "field": "Population(millions)",
+      "type": "quantitative",
+      "scale": {"domain": [5.45, 1413]},
+      "axis": {"grid": false},
+      "title": null
     },
-    "mark": {"type": "circle", "color": "green", "opacity": 0.7},
-    "height": 300,
-    "width": 300,
-    "encoding": {
-      "x": {
+    "size": {
+      "field": "Covid_deaths(thousands)",
+      "type": "quantitative",
+      "title": "Covid deaths",
+      "scale": {"range": [1.71, 1077.129]},
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "Country", "type": "ordinal", "title": "Country"},
+      {
         "field": "Covid_cases(millions)",
         "type": "quantitative",
-        "scale": {"domain": [1, 99]},
-        "axis": {"grid": false},
-        "title": null
+        "title": "Covid cases(millions)",
+        "format": ".0f"
       },
-      "y": {
-        "field": "Population(millions)",
-        "type": "quantitative",
-        "scale": {"domain": [5.45, 1413]},
-        "axis": {"grid": false},
-        "title": null
-      },
-      "size": {
+      {
         "field": "Covid_deaths(thousands)",
         "type": "quantitative",
-        "title": "Covid deaths",
-        "scale": {"range": [1.71, 1077.129]},
-        "legend": null
+        "title": "Covid deaths(thousands)",
+        "format": ".2f"
       },
-      "tooltip": [
-        {"field": "Country", "type": "ordinal", "title": "Country"},
-        {
-          "field": "Covid_cases(millions)",
-          "type": "quantitative",
-          "title": "Covid cases(millions)",
-          "format": ".0f"
-        },
-        {
-          "field": "Covid_deaths(thousands)",
-          "type": "quantitative",
-          "title": "Covid deaths(thousands)",
-          "format": ".2f"
-        },
-        {
-          "field": "Population(millions)",
-          "type": "quantitative",
-          "title": "Population(millions)",
-          "format": ","
-        }
-      ]
-    }
+      {
+        "field": "Population(millions)",
+        "type": "quantitative",
+        "title": "Population(millions)",
+        "format": ","
+      }
+    ]
   }
+}  

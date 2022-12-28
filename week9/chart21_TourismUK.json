@@ -1,22 +1,22 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "Tourism arrivals in the UK",
-      "subtitle": ["Year (x), Tourist arrivals (y). World Bank data"],
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
-    },
-    "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/tourism%20uk.csv"
-    },
-    "mark": "point",
-    "encoding": {
-      "x": {"field": "Year", "type": "temporal"},
-      "y": {"field": "Tourism_arrivals", "type": "quantitative"},
-      "tooltip": {"field": "Tourism_arrivals", "type": "nominal"}
-    },
-    "config": {}
-  }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Tourism arrivals in the UK",
+    "subtitle": ["Year (x), Tourist arrivals (y). World Bank data"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/week9/tourismUK.csv"
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Tourism_arrivals", "type": "quantitative"},
+    "tooltip": {"field": "Tourism_arrivals", "type": "nominal"}
+  },
+  "config": {}
+}  
