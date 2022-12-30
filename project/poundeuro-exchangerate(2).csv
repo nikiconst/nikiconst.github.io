@@ -1,20 +1,20 @@
-Date,Symbol,,Date(quarterly),Value(quarterly),Total_tourist_arrivals
-2006,1.4670,Value,2006 Q1,1.4570,2400924
-2007,1.4619,Value,2006 Q2,1.4540,2416081
-2008,1.2588,Value,2006 Q3,1.4713,2403750
-2009,1.1233,Value,2006 Q4,1.4854,2141193
-2010,1.1664,Value,2007 Q1,1.4916,2172998
-2011,1.1527,Value,2007 Q2,1.4732,2392228
-2012,1.2337,Value,2007 Q3,1.4705,2464908
-2013,1.1776,Value,2007 Q4,1.4129,2405390
-2014,1.2411,Value,2008 Q1,1.3212,2441239
-2015,1.3782,Value,2008 Q2,1.2615,2659405
-2016,1.2233,Value,2008 Q3,1.2586,3186531
-2017,1.1413,Value,2008 Q4,1.1957,3652073
-2018,1.1305,Value,2009 Q1,1.1010,3938625
-2019,1.1405,Value,2009 Q2,1.1389,3976777
-2020,1.1250,Value,2009 Q3,1.1475,631609
-2021,1.1633,Value,2009 Q4,1.1058,1936931
+Date,Values,Symbol,Date(quarterly),Value(quarterly),Total_tourist_arrivals
+2006,1.4670,Sterling:Euro exchange rate,2006 Q1,1.4570,2400924
+2007,1.4619,Sterling:Euro exchange rate,2006 Q2,1.4540,2416081
+2008,1.2588,Sterling:Euro exchange rate,2006 Q3,1.4713,2403750
+2009,1.1233,Sterling:Euro exchange rate,2006 Q4,1.4854,2141193
+2010,1.1664,Sterling:Euro exchange rate,2007 Q1,1.4916,2172998
+2011,1.1527,Sterling:Euro exchange rate,2007 Q2,1.4732,2392228
+2012,1.2337,Sterling:Euro exchange rate,2007 Q3,1.4705,2464908
+2013,1.1776,Sterling:Euro exchange rate,2007 Q4,1.4129,2405390
+2014,1.2411,Sterling:Euro exchange rate,2008 Q1,1.3212,2441239
+2015,1.3782,Sterling:Euro exchange rate,2008 Q2,1.2615,2659405
+2016,1.2233,Sterling:Euro exchange rate,2008 Q3,1.2586,3186531
+2017,1.1413,Sterling:Euro exchange rate,2008 Q4,1.1957,3652073
+2018,1.1305,Sterling:Euro exchange rate,2009 Q1,1.1010,3938625
+2019,1.1405,Sterling:Euro exchange rate,2009 Q2,1.1389,3976777
+2020,1.1250,Sterling:Euro exchange rate,2009 Q3,1.1475,631609
+2021,1.1633,Sterling:Euro exchange rate,2009 Q4,1.1058,1936931
 2006,2400924,Total_tourist_arrivals,2010 Q1,1.1269,
 2007,2416081,Total_tourist_arrivals,2010 Q2,1.1747,
 2008,2403750,Total_tourist_arrivals,2010 Q3,1.1995,
