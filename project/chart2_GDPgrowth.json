@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Cyprus' annual GDP growth",
+    "title": "Cyprus' annual GDP growth (%)",
+    "width": 400,
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/GDPgrowth.csv"},
+    "mark": {"type":"line", "point": true},
+    "encoding": {
+      "x": {"field": "Time", "type": "temporal"},
+      "y": {"field": "GDPgrowth(annual%)", "type": "quantitative"},
+      "tooltip": {"field": "GDPgrowth(annual%)", "type": "nominal"}
+    },
+    "config": {}
+  }
+  
