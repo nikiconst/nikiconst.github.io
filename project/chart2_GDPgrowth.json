@@ -1,7 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Cyprus' annual GDP growth",
-    "title": "Cyprus' annual GDP growth (%)",
+    "title": {
+      "text":"Cyprus' annual GDP growth (%)",
+      "subtitle": "Data source: World Bank"},
     "width": 400,
     "height": 300,
     "data": {"url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/GDPgrowth.csv"},
