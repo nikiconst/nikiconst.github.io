@@ -1,0 +1,126 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my second CSS file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+
+/* Book on colour = Joseph Albers - Interaction of Colour */
+
+body{
+    background-color: rgb(200,200,200);
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h2, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek2{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek3{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek4{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek5{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek7{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek8{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+.myWeek9{
+    margin: auto;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(220, 220, 220);
+     
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(100,100,100);
+}
+
+
+/* Set the apperance of the class, chart */
+/*.chart{
+    background-color: white;
+    width:510px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;  
+}
+
+
+

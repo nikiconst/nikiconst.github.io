@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Niki Constantinou, Data Science 2022 -->
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Document</title>
+    <title>Niki Constantinou Data Vizualization Project</title>
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index2.css">
@@ -19,8 +23,55 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+<!--Favicon-->
+<link rel="icon" href="icon.png">
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+        body {
+            margin: 0;
+            text-align: center !important;
+        }
+    </style>
+    <div id="loader">
+        <div id="one"></div>
+        <div id="two"></div>
+      </div>
+      
+      <div id="loadermessage">Loading...</div>
+
+</head>
 
 
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    
+      <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("loadermessage").style.display = "none";  
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+    </div>
+    
+<body>
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
 <body>
     <div class="topnav">
         <a href="index.html">Home</a>
@@ -29,10 +80,10 @@
           <a href="https://github.com/nikiconst/nikiconst.github.io">Github</a>
         </div>
   
-    <title>Niki Constantinou - Portfolio</title>
+        <title>Niki Constantinou - Project</title>
   
    
-      <h1>Niki Constantinou: Data Visualisation Portfolio</h1>
+      <h1>Niki Constantinou: Data Visualisation Project</h1>
       <h3><strong>ECON30006 | Student Number: 2043293</strong></h3>
 
     </div>

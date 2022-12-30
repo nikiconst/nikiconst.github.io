@@ -19,7 +19,55 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+<!--Favicon-->
+<link rel="icon" href="icon.png">
 
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+        body {
+            margin: 0;
+            text-align: center !important;
+        }
+    </style>
+    <div id="loader">
+        <div id="one"></div>
+        <div id="two"></div>
+      </div>
+      
+      <div id="loadermessage">Loading...</div>
+
+</head>
+
+
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    
+      <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("loadermessage").style.display = "none";  
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+    </div>
+    
+<body>
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
     <div class="topnav">
@@ -48,8 +96,7 @@
         <h3>Productivity per firm per employee</h3>
         <p>The second chart looks at estimated income received per employee</p>
         <div class="chart" id="Chart2"> </div>
-    </div>
-    <div class="myWeek2">
+   
         <h2>Week 2</h2>
 
         <h3>IMF Lending Outstanding</h3>
@@ -60,22 +107,19 @@
         <p>The fourth graph indicates the IMF lending relative to World GDP</p>
         <div class="chart" id="Chart4"></div>
         <p>IMF Lending relative to the World GDP seems to be at its highest in 1984. This means that the year 1984 was the riskiest one.</p>
-    </div>
-    <div class="myWeek3">
+    
         <h2>Week 3</h2>
         <h3>Productivity in the UK</h3>
         <p>The fifth graph illustrates the GDP per capita in the UK</p>
         <div class="chart" id="Chart5"></div>
-    </div>
-    <div class="myWeek4">
+    
         <h2>Week 4</h2>
         <h3>Population Growth in the UK</h3>
         <p>The sixth graph illustrates the percentage change in UK's population (1961-2021)</p>
         <div class="chart" id="Chart6"></div>
         <p>Data source: World Bank</p>
         <p>I chose this source since it is a reliable one, updated with all the latest information</p>
-    </div>
-    <div class="myWeek5">
+    
         <h2>Week 5</h2>
         <h3>Workforce by Industry</h3>
         <div class="chart" id="Chart7"></div>
@@ -87,16 +131,14 @@
         <div class="chart" id="Chart13"></div>
         <div class="chart" id="Chart14"></div>
         <div class="chart" id="Chart15"></div>
-    </div> 
-    <div class="myWeek7">
+    
         <h2>Week 7</h2>
         <h3>Base Map of Cyprus</h3>
         <div class="chart" id="Chart16"></div>
         <h3>Choropleth Map of Cyprus</h3>
         <div class="chart" id="Chart17"></div>
         <p>My map above shows the population in each city of Cyprus, indicating that Nicosia is the city with the highest number of citizens</p>
-    </div>
-    <div class="myWeek8">
+    
         <h2>Week 8</h2>
         <h3>Inflation rate in the UK in comparison to the World</h3>
         <div class="chart" id="Chart18"></div>
@@ -104,8 +146,7 @@
         <h3>Real Wage in the UK</h3>
         <div class="chart" id="Chart19"></div>
         <p>Real Wage in the UK has fluctuated over the last years. UK has experienced a 3% decrease in the last year</p>
-    </div>
-    <div class="myWeek9">
+    
         <h2>Week 9</h2>
         <h3>Covid in the G20 countries</h3>
         <p>Number of covid cases compared to number of covid deaths</p>
