@@ -34,8 +34,7 @@
             "M: Other service activities"
           ]
         },
-        "title": "Sector",
-        "tooltip": {"field": "GDP(EurosMn)"}
+        "title": "Sector"
       }
     },
     "config": {}
