@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
+    "width": 400,
+    "height": 300,
+    "title": {
+      "text": "Euro:Pound exchange rate  vs Number of tourist arrivals in Cyprus",
+      "subtitle": "Data source: World Bank & cystat"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/europound-touristarrivals(uk).csv"
+    },
+    "encoding": {"x": {"timeUnit": "year", "field": "Date", "type": "temporal"}},
+    "layer": [
+      {
+        "mark": {"opacity": 0.3, "type": "line", "color": "#09010c"},
+        "encoding": {
+          "y": {
+            "aggregate": "average",
+            "field": "Euro:Pound",
+            "scale": {"domain": [0, 2]},
+            "title": "Euro:Pound",
+            "axis": {"titleColor": "#09010c"}
+          }
+        }
+      },
+      {
+        "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone"},
+        "encoding": {
+          "y": {
+            "aggregate": "average",
+            "field": "Tourist_arrivals",
+            "title": "Tourist arrivals",
+            "axis": {"titleColor": "#85A9C5"}
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}},
+    "config": {}
+  }
