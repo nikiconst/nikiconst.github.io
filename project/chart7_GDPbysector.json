@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/GDPbysector(2008-2019).csv"
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "timeUnit": "year",
+        "field": "Date",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {"field": "GDP(EurosMn)", "type": "quantitative"},
+      "color": {
+        "field": "Sector",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "A: Agriculture, fishing and Mining",
+            "B: Manufacturing",
+            "C: Electricity & Water Supply",
+            "D: Wholesale & retail trade",
+            "E: Transportation & storage",
+            "F: Accommodation & food service",
+            "G: Information & communication",
+            "H: Financial & insurance activities",
+            "I: Construction & Real estate",
+            "J: Administrative & support service",
+            "K: Public administration, Health &Education",
+            "L: Arts & entertainment",
+            "M: Other service activities"
+          ]
+        },
+        "title": "Sector",
+        "tooltip": {"field": "GDP(EurosMn)"}
+      }
+    },
+    "config": {}
+  }
