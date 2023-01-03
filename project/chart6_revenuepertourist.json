@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Revenues per tourist",
+      "subtitle": ["Source: cystat", ""],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/revenuespertourist.csv"
+    },
+    "background": "whitesmoke",
+    "width": 400,
+    "height": 300,
+    "mark": {"type": "bar", "color": "#1da1f8"},
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "axis": {"title": "", "grid": false}
+      },
+      "y": {
+        "field": "Revenue_per_tourist",
+        "type": "quantitative",
+        "axis": {"tickCount": 7, "grid": true}
+      },
+      "tooltip": [
+        {"field": "Date", "title": "Date", "type": "temporal"},
+        {"field": "Revenue_per_tourist", "title": "Euros", "type": "quantitative"}
+      ]
+    },
+    "config": {"bar": {"height": 50, "width": 14}}
+  }
