@@ -1,0 +1,81 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Tourist arrivals from the UK vs its GDP growth",
+      "subtitle": ["Data source: cystat & World Bank", ""],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/arrivals-GDPgrowth(%25)(uk).csv"
+    },
+    "width": 400,
+    "height": 300,
+    "layer": [
+      {
+        "encoding": {
+          "x": {"field": "Date", "type": "temporal"},
+          "y": {"field": "Percentages", "type": "quantitative"},
+          "color": {"field": "Symbol", "type": "nominal"}
+        },
+        "layer": [
+          {"mark": "line"},
+          {
+            "params": [
+              {
+                "name": "label",
+                "select": {
+                  "type": "point",
+                  "encodings": ["x"],
+                  "nearest": true,
+                  "on": "mouseover"
+                }
+              }
+            ],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {"param": "label", "empty": false, "value": 1},
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+          {
+            "mark": {"type": "rule", "color": "gray"},
+            "encoding": {"x": {"type": "temporal", "field": "Date"}}
+          },
+          {
+            "encoding": {
+              "text": {"type": "quantitative", "field": "Percentages"},
+              "x": {"type": "temporal", "field": "Date"},
+              "y": {"type": "quantitative", "field": "Percentages"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+                "encoding": {"color": {"type": "nominal", "field": "Symbol"}}
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "config": {}
+  }
