@@ -1,0 +1,161 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my second CSS file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+
+/* Book on colour = Joseph Albers - Interaction of Colour */
+
+body{
+    background-color: rgb(200,200,200);
+    
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h2, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: auto;
+    background-color: rgb(220, 220, 220);
+
+    
+}
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: white;
+    width:auto;
+    height: flex;
+    margin: auto;
+    padding: 5pt;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: auto;
+    border-color: grey;  
+}
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    --borderWidth: 3px;
+    background: #5a5c5e;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif ;
+  float: left; 
+  width: 24.8%; 
+  padding: 12px 0; 
+  transition: all 0.3s ease; 
+  font-size: 15px; 
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav:after{
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #ab6666, #ac5e5e, #f8625d, #c58787, #d1b091, #f0cda9, #bbb1b1, #ddbdbd);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+  .topnav a.active {
+    background-color: #95b5fcd5;
+    color: white;
+  }
+
+
+  
+  #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+  }
+  
+  #one {
+    position: absolute;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: .0;
+    animation: loading 1.4s .65s infinite;
+    height: 20px;
+    width: 20px;
+  }
+  
+  #two {
+    position: absolute;
+    border-radius: 50%;
+    background: #f7ac58dc;
+    opacity: .0;
+    animation: loading 1.4s infinite;
+    height: 20px;
+    width: 20px;
+  }
+  
+  
+  @keyframes loading {
+    0% {
+      opacity: .0;
+      transform: scale(.15);
+      box-shadow: 0 0 2px rgba(black, .1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(2);
+      box-shadow: 0 0 10px rgba(black, .1);
+    }
+    100% {
+      opacity: .0;
+      transform: scale(.15);
+      box-shadow: 0 0 2px rgba(black, .1);
+    }
+  }
+  
+  #loadermessage {
+    position: absolute;
+    text-align: center !important;
+    top: 60% !important;
+    left: 46%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(3, 2, 0);
+    font-size: 20px; 
+    letter-spacing: 1px; 
+    line-height: 1; 
+  }
