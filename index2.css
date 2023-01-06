@@ -27,9 +27,13 @@ h1, h2, h3, p{
 .myWeek1{
     margin: auto;
     max-width: auto;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);  
+}
 
-    
+.myWeek2{
+  margin: auto;
+  max-width: auto;
+  background-color: rgb(220, 220, 220);  
 }
 
 /* Set the apperance of the class, chart */
