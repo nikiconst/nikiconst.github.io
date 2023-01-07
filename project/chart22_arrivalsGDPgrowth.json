@@ -4,8 +4,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/arrivals-GDPgrowth(2).csv"
   },
-  "width": 100,
-  "height": 100,
+  "width": 400,
+  "height": 300,
   "title": {
     "text": "GDP growth vs Total tourist arrivals in Cyprus",
     "subtitle": "Data source: cystat & World Bank"

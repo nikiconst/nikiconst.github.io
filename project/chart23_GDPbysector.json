@@ -2,6 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
     "height": 300,
+    "title": {
+      "text": "GDP growth by sector in Cyprus",
+      "subtitle": "Data source: cystat"
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/GDPbysector(2008-2019).csv"
     },
