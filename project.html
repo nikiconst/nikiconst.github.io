@@ -7,20 +7,20 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title for the page -->
-    <title>Niki Constantinou Data Vizualization Project</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index2.css">
+  <!-- Title for the page -->
+  <title>Niki Constantinou Data Vizualization Project</title>
 
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  <!-- Link to my style sheet -->
+  <link rel="stylesheet" href="index2.css">
+
+  <!--The next three lines allow the Vega embed-->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
 <!--Favicon-->
@@ -29,20 +29,20 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-        body {
-            margin: 0;
-            text-align: center !important;
-        }
-    </style>
-    <div id="loader">
-        <div id="one"></div>
-        <div id="two"></div>
-      </div>
-      
-      <div id="loadermessage">Loading...</div>
+    body {
+      margin: 0;
+      text-align: center !important;
+    }
+  </style>
+  <div id="loader">
+    <div id="one"></div>
+    <div id="two"></div>
+  </div>
+
+  <div id="loadermessage">Loading...</div>
 
 </head>
 
@@ -50,91 +50,95 @@
 
 <body onload="myFunction()" style="margin:0;">
 
-    <div id="loader"></div>
-    
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-    
-      <script>
-        var myVar;
-        
-        function myFunction() {
-          myVar = setTimeout(showPage, 3000);
-        }
-        
-        function showPage() {
-          document.getElementById("loader").style.display = "none";
-          document.getElementById("loadermessage").style.display = "none";  
-          document.getElementById("myDiv").style.display = "block";
-        }
-        </script>
-    </div>
-    
-<body>
+  <div id="loader"></div>
 
-<!-- ///////////////////  START BODY //////////////////////////////////// -->
-<body>
-    <div class="topnav">
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loadermessage").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </div>
+
+  <body>
+
+    <!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+    <body>
+      <div class="topnav">
         <a href="index.html">Home</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a class="active" href="project.html">Project</a>
-          <a href="https://github.com/nikiconst/nikiconst.github.io">Github</a>
-        </div>
-  
-      <title>Niki Constantinou - Project</title>
-  
-   
-        <h1>Niki Constantinou: Data Visualisation Project</h1>
-        <h3><strong>ECON30006 | Student Number: 2043293</strong></h3>
-      
-        <!-- <ul>
-          <div class="myWeek1">
-              <ul>
-                  <h3>Figures 1 and 2: Measuring inflation and how it affects owners vs buyers </h3>
-                  <p> </p>
-                  </li>
-                  <div class="chart" id="Chart22"></div>
-                  </li> 
-          </div> -->
-      <div class="myWeek2">
-          <h1>Data Science for Economists.</h1>
-          <h2>Week 1</h2>
-    
-          <h3>Hiring propensity</h3>
-          <p>The first chart indicates job creation per employee, in respect with age and size</p>
-          <div class="chart" id="Chart22"></div>
-          <div class="chart" id="Chart23"></div>
-          <div class="chart" id="Chart27"></div>
-          <div class="chart" id="Chart24"></div>
-          <div class="chart" id="Chart29"></div>
-          <div class="chart" id="Chart30"></div>
-          <div class="chart" id="Chart31"></div>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="project.html">Project</a>
+        <a href="https://github.com/nikiconst/nikiconst.github.io">Github</a>
       </div>
-     
+
+      <title>Niki Constantinou - Project</title>
 
 
-    </div>
-</body>
+      <h1>Niki Constantinou: Data Science Project</h1>
+      <h3><strong>ECON30006 | Student Number: 2043293</strong></h3>
 
-<script>
-  //Define charts:
-  var myChart22 = "project/chart22_arrivalsGDPgrowth.json";
-  var mychart23 = "project/chart23_GDPbysector.json";
-  var myChart27 = "project/chart27_ArrivalsRevenue.json";
-  var myChart24 = "project/chart24_revenuepertourist.json";
-  var mychart29 = "project/chart29_mapEuropeRussia(2019).json";
-  var mychart30 = "project/chart30_arrivalsGDPgrowth(uk).json";
-  var mychart31 = "project/chart31_europound-Arrivals.json";
-  
+      <div class="myWeek2">
+        <h1>Analysis of tourism arrivals in Cyprus</h1>
 
-  //Embed charts:
-  vegaEmbed('#Chart22', myChart22);
-  vegaEmbed('#Chart23', mychart23);
-  vegaEmbed('#Chart27', myChart27);
-  vegaEmbed('#Chart24', myChart24);
-  vegaEmbed('#Chart29', mychart29);
-  vegaEmbed('#Chart30', mychart30);
-  vegaEmbed('#Chart31', mychart31);
-  
-</script>
+        <h2>The aim of of the project</h2>
+        <p>Tourism is one of the most critical sectors of the Cyprus economy, contributing substantially both directly
+          and indirectly to the country’s GDP. The aim of the project is to analyse in more detail the Cyprus tourist
+          sector through an examination of its contribution in the country’s GDP as well as examination of relevant
+          statistics for tourist arrivals in an attempt to identify changes and trends over the past 10 years. The
+          country of origin of tourists visiting Cyprus as well as the revenue per visitor is also examined with the aim
+          of identifying the most critical countries from where tourists come from as well as changes in the average
+          spending per tourists. </p>
+        <div class="chart" id="Chart22"></div>
+        <div class="chart" id="Chart23"></div>
+        <p>The number of tourist arrivals in Cyprus has a direct positive effect on Cyprus’ GDP growth. It can be
+          observed from the graph below that when the number of tourists visiting Cyprus increases, its GDP rises as
+          well and vice versa. This is because tourism affects a variety of different sectors. For example, it can be
+          included in sectors such as “Accommodation & food service”, “Electricity & Water supply”, “Wholesale & retail
+          trade” and “Transportation & storage”.
+          Specifically, according to the “World Data Atlas” tourism contributes for about 23% of the whole country’s
+          GDP. </p>
+        <div class="chart" id="Chart27"></div>
+        <div class="chart" id="Chart24"></div>
+        <div class="chart" id="Chart29"></div>
+        <div class="chart" id="Chart30"></div>
+        <div class="chart" id="Chart31"></div>
+      </div>
+
+
+
+      </div>
+    </body>
+
+    <script>
+      //Define charts:
+      var myChart22 = "project/chart22_arrivalsGDPgrowth.json";
+      var mychart23 = "project/chart23_GDPbysector.json";
+      var myChart27 = "project/chart27_ArrivalsRevenue.json";
+      var myChart24 = "project/chart24_revenuepertourist.json";
+      var mychart29 = "project/chart29_mapEuropeRussia(2019).json";
+      var mychart30 = "project/chart30_arrivalsGDPgrowth(uk).json";
+      var mychart31 = "project/chart31_europound-Arrivals.json";
+
+
+      //Embed charts:
+      vegaEmbed('#Chart22', myChart22);
+      vegaEmbed('#Chart23', mychart23);
+      vegaEmbed('#Chart27', myChart27);
+      vegaEmbed('#Chart24', myChart24);
+      vegaEmbed('#Chart29', mychart29);
+      vegaEmbed('#Chart30', mychart30);
+      vegaEmbed('#Chart31', mychart31);
+
+    </script>
 
 </html>
