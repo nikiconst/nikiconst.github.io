@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "UK's annual Inflation and GDP growth",
+      "subtitle": "Data source: World Bank"
+    },
+    "width": 400,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/InflationGDPgrowth(uk).csv"
+    },
+    "mark": {"type": "line", "point": true},
+    "encoding": {
+      "x": {"field": "Time", "type": "temporal", "title": null},
+      "y": {"field": "Percentages", "type": "quantitative"},
+      "color": {"field": "Symbol", "type": "nominal"}
+    },
+    "config": {}
+  }
