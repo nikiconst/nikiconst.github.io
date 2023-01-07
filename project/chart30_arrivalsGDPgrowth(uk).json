@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Tourist arrivals from the UK vs its GDP growth",
+    "text": "Tourist arrivals from the UK vs UK's GDP growth",
     "subtitle": ["Data source: cystat & World Bank", ""],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
