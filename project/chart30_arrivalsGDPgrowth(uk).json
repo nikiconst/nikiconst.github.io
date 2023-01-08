@@ -4,9 +4,9 @@
     "text": "Tourist arrivals from the UK vs UK's GDP growth",
     "subtitle": ["Data source: cystat & World Bank", ""],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "middle",
-    "color": "black"
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/arrivals-GDPgrowth(uk).csv"

@@ -7,7 +7,6 @@
       "subtitle": ["Identity projection. Data source: cystat"],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
-      "subtitlePadding": 5,
       "anchor": "middle",
       "color": "black"
     },

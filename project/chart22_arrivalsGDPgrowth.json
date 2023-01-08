@@ -8,7 +8,11 @@
   "height": 300,
   "title": {
     "text": "GDP growth vs Total tourist arrivals in Cyprus",
-    "subtitle": "Data source: cystat & World Bank"
+    "subtitle": "Data source: cystat & World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
   },
   "encoding": {"x": {"field": "Date", "type": "temporal"}},
   "layer": [

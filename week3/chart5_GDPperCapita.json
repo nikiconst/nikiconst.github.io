@@ -1,6 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "GDP per capita in the UK ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
   "data": {
     "values": [
       {"Time": 2000, "GDP per capita": 28223.06757},

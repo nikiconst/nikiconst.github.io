@@ -5,7 +5,7 @@
     "subtitle": "% change in population in the UK",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
-    "anchor": "start",
+    "anchor": "middle",
     "color": "black"
   },
   "data": {

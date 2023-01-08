@@ -5,7 +5,11 @@
     "height": 310,
     "title": {
       "text": "Euro:Pound exchange rate  vs Number of tourist arrivals in Cyprus",
-      "subtitle": "Data source: World Bank & cystat"
+      "subtitle": "Data source: World Bank & cystat",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
     },
     "data": {
       "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/europound-touristarrivals(uk).csv"

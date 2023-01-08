@@ -5,9 +5,9 @@
     "text": "Percentage change in Real Wages",
     "subtitle": "Unites Kingdom. Source: ONS",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "middle",
-    "color": "black"
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/week8/UkWageChange.csv"

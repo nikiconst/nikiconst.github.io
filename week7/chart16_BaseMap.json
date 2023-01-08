@@ -5,9 +5,9 @@
     "title": {
       "text": "Cyprus - base map",
       "subtitle": ["Identity projection"],
+      "subtitlePadding": 5,
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
-      "subtitlePadding": 5,
       "anchor": "middle",
       "color": "black"
     },

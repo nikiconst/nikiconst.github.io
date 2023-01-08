@@ -5,7 +5,11 @@
   "height": 310,
   "title": {
     "text": "Number of tourist arrivals and the revenues they bring in Cyprus",
-    "subtitle": "Data source: cystat"
+    "subtitle": "Data source: cystat",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/nikiconst/nikiconst.github.io/main/project/TourismRevenues(annually)(3).csv"

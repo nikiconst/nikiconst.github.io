@@ -5,7 +5,7 @@
     "subtitle": ["Year (x), Tourist arrivals (y). World Bank data"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
-    "anchor": "start",
+    "anchor": "middle",
     "color": "black"
   },
   "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
