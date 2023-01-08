@@ -3,20 +3,20 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title for the page -->
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index2.css">
+  <!-- Title for the page -->
+  <title>Document</title>
 
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  <!-- Link to my style sheet -->
+  <link rel="stylesheet" href="index2.css">
+
+  <!--The next three lines allow the Vega embed-->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
 <!--Favicon-->
@@ -25,20 +25,20 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-        body {
-            margin: 0;
-            text-align: center !important;
-        }
-    </style>
-    <div id="loader">
-        <div id="one"></div>
-        <div id="two"></div>
-      </div>
-      
-      <div id="loadermessage">Loading...</div>
+    body {
+      margin: 0;
+      text-align: center !important;
+    }
+  </style>
+  <div id="loader">
+    <div id="one"></div>
+    <div id="two"></div>
+  </div>
+
+  <div id="loadermessage">Loading...</div>
 
 </head>
 
@@ -46,46 +46,46 @@
 
 <body onload="myFunction()" style="margin:0;">
 
-    <div id="loader"></div>
-    
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-    
-      <script>
-        var myVar;
-        
-        function myFunction() {
-          myVar = setTimeout(showPage, 3000);
-        }
-        
-        function showPage() {
-          document.getElementById("loader").style.display = "none";
-          document.getElementById("loadermessage").style.display = "none";  
-          document.getElementById("myDiv").style.display = "block";
-        }
-        </script>
-    </div>
-    
-<body>
+  <div id="loader"></div>
 
-<!-- ///////////////////  START BODY //////////////////////////////////// -->
+  <div style="display:none;" id="myDiv" class="animate-bottom">
 
-<body>
-    <div class="topnav">
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loadermessage").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </div>
+
+  <body>
+
+    <!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+    <body>
+      <div class="topnav">
         <a href="index.html">Home</a>
-          <a class="active" href="portfolio.html">Portfolio</a>
-          <a href="project.html">Project</a>
-          <a href="https://github.com/nikiconst/nikiconst.github.io">Github</a>
-        </div>
-  
-    <title>Niki Constantinou - Portfolio</title>
-  
-   
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="project.html">Project</a>
+        <a href="https://github.com/nikiconst/nikiconst.github.io">Github</a>
+      </div>
+
+      <title>Niki Constantinou - Portfolio</title>
+
+
       <h1>Niki Constantinou: Data Science Portfolio</h1>
       <h3><strong>ECON30006 | Student Number: 2043293</strong></h3>
-      
-  
-    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
+
+
+      <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+      <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         <h2>Week 1</h2>
 
@@ -96,7 +96,7 @@
         <h3>Productivity per firm per employee</h3>
         <p>The second chart looks at estimated income received per employee</p>
         <div class="chart" id="Chart2"> </div>
-   
+
         <h2>Week 2</h2>
 
         <h3>IMF Lending Outstanding</h3>
@@ -106,20 +106,21 @@
         <h3>IMF Lending Outstanding as a % of World GDP</h3>
         <p>The fourth graph indicates the IMF lending relative to World GDP</p>
         <div class="chart" id="Chart4"></div>
-        <p>IMF Lending relative to the World GDP seems to be at its highest in 1984. This means that the year 1984 was the riskiest one.</p>
-    
+        <p>IMF Lending relative to the World GDP seems to be at its highest in 1984. This means that the year 1984 was
+          the riskiest one.</p>
+
         <h2>Week 3</h2>
         <h3>Productivity in the UK</h3>
         <p>The fifth graph illustrates the GDP per capita in the UK</p>
         <div class="chart" id="Chart5"></div>
-    
+
         <h2>Week 4</h2>
         <h3>Population Growth in the UK</h3>
         <p>The sixth graph illustrates the percentage change in UK's population (1961-2021)</p>
         <div class="chart" id="Chart6"></div>
         <p>Data source: World Bank</p>
         <p>I chose this source since it is a reliable one, updated with all the latest information</p>
-    
+
         <h2>Week 5</h2>
         <h3>Workforce by Industry</h3>
         <div class="chart" id="Chart7"></div>
@@ -131,22 +132,24 @@
         <div class="chart" id="Chart13"></div>
         <div class="chart" id="Chart14"></div>
         <div class="chart" id="Chart15"></div>
-    
+
         <h2>Week 7</h2>
         <h3>Base Map of Cyprus</h3>
         <div class="chart" id="Chart16"></div>
         <h3>Choropleth Map of Cyprus</h3>
         <div class="chart" id="Chart17"></div>
-        <p>My map above shows the population in each city of Cyprus, indicating that Nicosia is the city with the highest number of citizens</p>
-    
+        <p>My map above shows the population in each city of Cyprus, indicating that Nicosia is the city with the
+          highest number of citizens</p>
+
         <h2>Week 8</h2>
         <h3>Inflation rate in the UK in comparison to the World</h3>
         <div class="chart" id="Chart18"></div>
-        <p>The graph above indicates that inflation has increased both worldwide. Specifically in the UK has reached 2.52% in 2021</p>
+        <p>The graph above indicates that inflation has increased both worldwide. Specifically in the UK has reached
+          2.52% in 2021</p>
         <h3>Real Wage in the UK</h3>
         <div class="chart" id="Chart19"></div>
         <p>Real Wage in the UK has fluctuated over the last years. UK has experienced a 3% decrease in the last year</p>
-    
+
         <h2>Week 9</h2>
         <h3>Covid in the G20 countries</h3>
         <p>Number of covid cases compared to number of covid deaths</p>
@@ -157,69 +160,81 @@
 
         <h2>Week 10 & 11</h2>
         <h3>Supervised model</h3>
+        <p>The aim is to build a model that will be able to use house features (eg. area, number of bedroom etc.) to
+          predict house prices</p>
+        <p><a class="textLink"
+            href="https://github.com/nikiconst/nikiconst.github.io/blob/main/week10/week10_11_Supervised_Unsupervised_Models.ipynb"
+            target="_blank" target="_blank">Google Colab Notebook</a></p>
         <div class="pngchart">
           <img src="week10/supervised.png" />
         </div>
+        <p>R2 Score of model is 0.54 which is descent but not the best. In the future, this could be further improved by
+          adding more features or more rows of data to build a more representable model</p>
         <h3>Unsupervised model</h3>
+        <p>The aim is to build a model that will split customers in different clusters according to different features
+          (eg. age, annual incode etc.)</p>
+        <p><a class="textLink"
+            href="https://github.com/nikiconst/nikiconst.github.io/blob/main/week10/week10_11_Supervised_Unsupervised_Models.ipynb"
+            target="_blank" target="_blank">Google Colab Notebook</a></p>
         <div class="pngchart">
           <img src="week10/unsupervised.png" />
         </div>
-        
-    </div>
-</body>
+        <p>As seen from the graph, customers are split in different groups using a combination of features. For example,
+          customers with mid age, mid income and high score are grouped together</p>
+
+      </div>
+    </body>
 
 
-<script>
-    //Define charts:
-    var myChart1 = "week1/chart1_HiringPropensity.json";
-    var myChart2 = "week1/chart2_ProductivityPerFirmPerEmployee.json";
-    var mychart3 = "week2/chart3_IMFCreditOutstanding.json";
-    var mychart4 = "week2/chart4_IMF&WorldGDP.json";
-    var mychart5 = "week3/chart5_GDPperCapita.json";
-    var mychart6 = "week4/chart6_PopulationGrowth.json";
-    var mychart7 = "week5/chart7_ONS.json";
-    var mychart8 = "week5/chart8_ONS.json";
-    var mychart9 = "week5/chart9_ONS.json";
-    var mychart10 = "week5/chart10_ONS.json";
-    var mychart11 = "week5/chart11_ONS.json";
-    var mychart12 = "week5/chart12_ONS.json";
-    var mychart13 = "week5/chart13_ONS.json";
-    var mychart14 = "week5/chart14_ONS.json";
-    var mychart15 = "week5/chart15_ONS.json";
-    var mychart16 = "week7/chart16_BaseMap.json";
-    var mychart17 = "week7/chart17_ChoroplethMap.json";
-    var mychart18 = "week8/chart18_inflation.json";
-    var mychart19 = "week8/chart19_ukWageChanges.json";
-    var mychart20 = "week9/chart20_CovidG20.json";
-    var mychart21 = "week9/chart21_TourismUK.json";
-    
+    <script>
+      //Define charts:
+      var myChart1 = "week1/chart1_HiringPropensity.json";
+      var myChart2 = "week1/chart2_ProductivityPerFirmPerEmployee.json";
+      var mychart3 = "week2/chart3_IMFCreditOutstanding.json";
+      var mychart4 = "week2/chart4_IMF&WorldGDP.json";
+      var mychart5 = "week3/chart5_GDPperCapita.json";
+      var mychart6 = "week4/chart6_PopulationGrowth.json";
+      var mychart7 = "week5/chart7_ONS.json";
+      var mychart8 = "week5/chart8_ONS.json";
+      var mychart9 = "week5/chart9_ONS.json";
+      var mychart10 = "week5/chart10_ONS.json";
+      var mychart11 = "week5/chart11_ONS.json";
+      var mychart12 = "week5/chart12_ONS.json";
+      var mychart13 = "week5/chart13_ONS.json";
+      var mychart14 = "week5/chart14_ONS.json";
+      var mychart15 = "week5/chart15_ONS.json";
+      var mychart16 = "week7/chart16_BaseMap.json";
+      var mychart17 = "week7/chart17_ChoroplethMap.json";
+      var mychart18 = "week8/chart18_inflation.json";
+      var mychart19 = "week8/chart19_ukWageChanges.json";
+      var mychart20 = "week9/chart20_CovidG20.json";
+      var mychart21 = "week9/chart21_TourismUK.json";
 
-    // Embed charts:
-    vegaEmbed('#Chart1', myChart1);
-    vegaEmbed('#Chart2', myChart2);
-    vegaEmbed('#Chart3', mychart3);
-    vegaEmbed('#Chart4', mychart4);
-    vegaEmbed('#Chart5', mychart5);
-    vegaEmbed('#Chart6', mychart6);
-    vegaEmbed('#Chart7', mychart7);
-    vegaEmbed('#Chart8', mychart8);
-    vegaEmbed('#Chart9', mychart9);
-    vegaEmbed('#Chart10', mychart10);
-    vegaEmbed('#Chart11', mychart11);
-    vegaEmbed('#Chart12', mychart12);
-    vegaEmbed('#Chart13', mychart13);
-    vegaEmbed('#Chart14', mychart14);
-    vegaEmbed('#Chart15', mychart15);
-    vegaEmbed('#Chart16', mychart16);
-    vegaEmbed('#Chart17', mychart17);
-    vegaEmbed('#Chart18', mychart18);
-    vegaEmbed('#Chart19', mychart19);
-    vegaEmbed('#Chart20', mychart20);
-    vegaEmbed('#Chart21', mychart21);
-    
 
-</script>
+      // Embed charts:
+      vegaEmbed('#Chart1', myChart1);
+      vegaEmbed('#Chart2', myChart2);
+      vegaEmbed('#Chart3', mychart3);
+      vegaEmbed('#Chart4', mychart4);
+      vegaEmbed('#Chart5', mychart5);
+      vegaEmbed('#Chart6', mychart6);
+      vegaEmbed('#Chart7', mychart7);
+      vegaEmbed('#Chart8', mychart8);
+      vegaEmbed('#Chart9', mychart9);
+      vegaEmbed('#Chart10', mychart10);
+      vegaEmbed('#Chart11', mychart11);
+      vegaEmbed('#Chart12', mychart12);
+      vegaEmbed('#Chart13', mychart13);
+      vegaEmbed('#Chart14', mychart14);
+      vegaEmbed('#Chart15', mychart15);
+      vegaEmbed('#Chart16', mychart16);
+      vegaEmbed('#Chart17', mychart17);
+      vegaEmbed('#Chart18', mychart18);
+      vegaEmbed('#Chart19', mychart19);
+      vegaEmbed('#Chart20', mychart20);
+      vegaEmbed('#Chart21', mychart21);
+
+
+    </script>
 
 </html>
-
-
