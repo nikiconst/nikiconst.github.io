@@ -74,16 +74,12 @@ p{font-family: 'Poppins', sans-serif;
 
 .pngchart{
   background-color: rgb(220, 220, 220);
-  width:auto;
+  width: auto;
   height: flex;
   margin: auto;
-  padding: 5pt;
   align-items: center;
   justify-content: center;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: auto;
-  border-color: grey;
+  padding: 5pt;
 }
 
 .container {
