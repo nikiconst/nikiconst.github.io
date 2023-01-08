@@ -1,4 +1,3 @@
-/* Richard Davies, Data Science for Economists */
 
 /* This is my second CSS file */
 
@@ -18,10 +17,33 @@ body{
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h2, h3, p{
+h1, h2 {
     color:rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+h3{
+  color: #0135a3d5;
+  font-family: 'Poppins', sans-serif ;
+}
+
+h5{
+  color: #0135a3d5;
+  font-family: 'Poppins', sans-serif ;
+  font-size: 20px;
+  font-style: oblique 10deg;
+}
+
+h6{ color: #2b2b2c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+} 
+
+p{font-family: 'Poppins', sans-serif;
+  color: #2b2b2c;
+  font-size: 15px;
 }
     
 .myWeek1{
@@ -36,7 +58,6 @@ h1, h2, h3, p{
   background-color: rgb(220, 220, 220);  
 }
 
-/* Set the apperance of the class, chart */
 .chart{
     background-color: white;
     width:auto;
@@ -49,6 +70,18 @@ h1, h2, h3, p{
     border-style: solid;
     border-radius: auto;
     border-color: grey;  
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 15px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  align-content: center;
+  background-color: rgb(220, 220, 220)
 }
 
 .topnav {
@@ -98,7 +131,16 @@ h1, h2, h3, p{
     color: white;
   }
 
-
+  #text {
+    position: static;
+    top: 80px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    padding: 20px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+  }
   
   #loader {
     position: absolute;

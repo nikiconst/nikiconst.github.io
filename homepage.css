@@ -146,25 +146,3 @@ h3{
     overflow-y: hidden;
     box-sizing: border-box;
   }
-
-  #text2 {
-    position: static;
-    top: 80px;
-    right: 50px;
-    bottom: 50px;
-    left: 50px;
-    padding: 20px;
-    overflow-y: hidden;
-    box-sizing: border-box;
-  }
-
-  #text3 {
-    position: static;
-    top: 80px;
-    right: 50px;
-    bottom: 50px;
-    left: 50px;
-    padding: 20px;
-    overflow-y: hidden;
-    box-sizing: border-box;
-  }
