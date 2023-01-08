@@ -72,6 +72,20 @@ p{font-family: 'Poppins', sans-serif;
     border-color: grey;  
 }
 
+.pngchart{
+  background-color: rgb(220, 220, 220);
+  width:auto;
+  height: flex;
+  margin: auto;
+  padding: 5pt;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: auto;
+  border-color: grey;
+}
+
 .container {
   display: flex;
   flex-flow: wrap;
