@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Population growth (annual %) ",
+    "text": "Change in UK population(annual %) ",
     "subtitle": "% change in population in the UK",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
@@ -23,7 +23,7 @@
     "y": {
       "field": "Population growth(annual%)",
       "type": "quantitative",
-      "title": "",
+      "title": "Population growth(%)",
       "axis": {"grid": false}
     }
   },

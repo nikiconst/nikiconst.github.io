@@ -3,7 +3,7 @@
   "width": 400,
   "height": 200,
   "title": {
-    "text": "Cyprus - choropleth map",
+    "text": "Cyprus - choropleth map (Population of Cyprus)",
     "subtitle": ["Identity projection"],
     "subtitlePadding": 5,
     "subtitleFontStyle": "italic",

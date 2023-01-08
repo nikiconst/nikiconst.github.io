@@ -24,7 +24,7 @@
   "layer": [
     {
       "encoding": {
-        "y": {"field": "Real wages", "type": "quantitative", "title": null}
+        "y": {"field": "Real wages", "type": "quantitative", "title": "Percentages"}
       },
       "layer": [
         {
