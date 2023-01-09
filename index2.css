@@ -117,11 +117,11 @@ p{font-family: 'Poppins', sans-serif;
     padding: 12px 12px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif ;
-  float: left; 
-  width: 24.8%; 
-  padding: 12px 0; 
-  transition: all 0.3s ease; 
-  font-size: 15px; 
+    float: left; 
+    width: 24.8%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    font-size: 15px; 
   }
 
   .topnav a:hover {
@@ -157,6 +157,8 @@ p{font-family: 'Poppins', sans-serif;
     padding: 20px;
     overflow-y: hidden;
     box-sizing: border-box;
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px;
   }
   
   #loader {
