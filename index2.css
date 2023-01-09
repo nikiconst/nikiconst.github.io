@@ -171,7 +171,7 @@ p{font-family: 'Poppins', sans-serif;
   #one {
     position: absolute;
     border-radius: 50%;
-    background: #FFFFFF;
+    background: #95b5fcd5;
     opacity: .0;
     animation: loading 1.4s .65s infinite;
     height: 20px;
@@ -181,7 +181,7 @@ p{font-family: 'Poppins', sans-serif;
   #two {
     position: absolute;
     border-radius: 50%;
-    background: #f7ac58dc;
+    background: #0135a3d5;
     opacity: .0;
     animation: loading 1.4s infinite;
     height: 20px;
@@ -221,4 +221,9 @@ p{font-family: 'Poppins', sans-serif;
     font-size: 20px; 
     letter-spacing: 1px; 
     line-height: 1; 
+  }
+
+  #myDiv {
+    display: none;
+    text-align: center;
   }
