@@ -1,76 +1,95 @@
-Country,2008,2019
-Austria,12336,44538
-Bahrain,27784,1699
-Belarus,83650,22136
-Belgium,11506,26077
-Bulgaria,26620,20937
-Croatia,2790,...
-Czech Republic,2125,24607
-Denmark,26368,40568
-Estonia,10675,...
-Finland,5512,24661
-France,722,31114
-Georgia (Asia),...,...
-Georgia (Europe),20027,...
-Germany,38216,151500
-Greece,4351,171512
-Hungary,1884,31916
-Iceland,32333,...
-Iran,36099,1858
-Ireland,...,19513
-Israel,95,293746
-Italy,132058,27491
-Latvia,133015,15398
-Lebanon,24366,58796
-Lithuania,9641,18580
-Luxambourg,281,...
-Malta,1799,6636
-Netherlands,58,43198
-Norway,23632,60782
-Other E.U. countries,32034,28287
-Other European countries - non EU,16859,10461
-Poland,354,80243
-Portugal,3071,...
-Romania,4049,57313
-Russia,2150,781856
-Serbia,14192,10536
-Slovakia,2294,32844
-Slovenia,4355,...
-Spain,643,9550
-Sweden,3421,144605
-Switzerland,26302,67534
-Syria,654,...
-Total arrivals,26744,3976777
-Total arrivals from Europe,63470,3430067
-Total arrivals from other European countries - non EU,12200,1048337
-Turkey,1092,...
-Ukraine,...,95031
-United Kingdom (E.U),5657,1330635
-United Kingdom (non E.U),114,...
-,...,
-,4337,
-,1694,
-,20358,
-,855,
-,...,
-,20346,
-,180926,
-,2978,
-,3322,
-,5048,
-,1541,
-,6249,
-,1039,
-,0,
-,3641,
-,124948,
-,38603,
-,1392,
-,2403750,
-,2267501,
-,302146,
-,135,
-,8847,
-,12853,
-,1242655,
-,21117,
+Country,2008,2019,Value,Year
+Austria,26620,44538,26620,2008
+Bahrain,2790,1699,2790,2008
+Belarus,2125,22136,2125,2008
+Belgium,26368,26077,26368,2008
+Bulgaria,10675,20937,10675,2008
+Croatia,...,...,...,2008
+Czech Republic,20027,24607,20027,2008
+Denmark,38216,40568,38216,2008
+Estonia,1884,...,1884,2008
+Finland,32333,24661,32333,2008
+France,36099,31114,36099,2008
+Georgia (Asia),...,...,...,2008
+Georgia (Europe),95,...,95,2008
+Germany,132058,151500,132058,2008
+Greece,133015,171512,133015,2008
+Hungary,9641,31916,9641,2008
+Iceland,281,...,281,2008
+Iran,1799,1858,1799,2008
+Ireland,23632,19513,23632,2008
+Israel,32034,293746,32034,2008
+Italy,16859,27491,16859,2008
+Latvia,2150,15398,2150,2008
+Lebanon,14192,58796,14192,2008
+Lithuania,2294,18580,2294,2008
+Luxambourg,4355,...,4355,2008
+Malta,3421,6636,3421,2008
+Netherlands,26302,43198,26302,2008
+Norway,63470,60782,63470,2008
+Other E.U. countries,...,28287,...,2008
+Other European countries - non EU,4337,10461,4337,2008
+Poland,20358,80243,20358,2008
+Portugal,855,...,855,2008
+Romania,20346,57313,20346,2008
+Russia,180926,781856,180926,2008
+Serbia,3322,10536,3322,2008
+Slovakia,5048,32844,5048,2008
+Slovenia,1541,...,1541,2008
+Spain,3641,9550,3641,2008
+Sweden,124948,144605,124948,2008
+Switzerland,38603,67534,38603,2008
+Syria,1392,...,1392,2008
+Total arrivals,2403750,3976777,2403750,2008
+Total arrivals from Europe,2267501,3430067,2267501,2008
+Total arrivals from other European countries - non EU,302146,1048337,302146,2008
+Turkey,135,...,135,2008
+Ukraine,8847,95031,8847,2008
+United Kingdom ,1242655,1330635,1242655,2008
+Austria,,,44538,2019
+Bahrain,,,1699,2019
+Belarus,,,22136,2019
+Belgium,,,26077,2019
+Bulgaria,,,20937,2019
+Croatia,,,...,2019
+Czech Republic,,,24607,2019
+Denmark,,,40568,2019
+Estonia,,,...,2019
+Finland,,,24661,2019
+France,,,31114,2019
+Georgia (Asia),,,...,2019
+Georgia (Europe),,,...,2019
+Germany,,,151500,2019
+Greece,,,171512,2019
+Hungary,,,31916,2019
+Iceland,,,...,2019
+Iran,,,1858,2019
+Ireland,,,19513,2019
+Israel,,,293746,2019
+Italy,,,27491,2019
+Latvia,,,15398,2019
+Lebanon,,,58796,2019
+Lithuania,,,18580,2019
+Luxambourg,,,...,2019
+Malta,,,6636,2019
+Netherlands,,,43198,2019
+Norway,,,60782,2019
+Other E.U. countries,,,28287,2019
+Other European countries - non EU,,,10461,2019
+Poland,,,80243,2019
+Portugal,,,...,2019
+Romania,,,57313,2019
+Russia,,,781856,2019
+Serbia,,,10536,2019
+Slovakia,,,32844,2019
+Slovenia,,,...,2019
+Spain,,,9550,2019
+Sweden,,,144605,2019
+Switzerland,,,67534,2019
+Syria,,,...,2019
+Total arrivals,,,3976777,2019
+Total arrivals from Europe,,,3430067,2019
+Total arrivals from other European countries - non EU,,,1048337,2019
+Turkey,,,...,2019
+Ukraine,,,95031,2019
+United Kingdom ,,,1330635,2019
