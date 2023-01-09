@@ -52,6 +52,11 @@ p{font-family: 'Poppins', sans-serif;
   color: #2b2b2c;
   font-size: 15px;
 }
+
+a{font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+  color: #2b2b2c;
+}
     
 .myWeek1{
     margin: auto;
